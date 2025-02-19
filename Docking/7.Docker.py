@@ -54,7 +54,7 @@ def main():
     N_CPUS = os.cpu_count()  # number of cpus to use for docking
     EXHAUSTIVENESS = 8  # Vina exhaustiveness parameter (ideally no lower than 8)
     SEED = 42  # random seed for random operations (the meaning of life)
-    PROTEIN_FOLDER = './data/Receptor'
+    PROTEIN_FOLDER = './data/Receptor files'
 
     # creating a docking engine
     docking = VinaDockingCPULocal(
